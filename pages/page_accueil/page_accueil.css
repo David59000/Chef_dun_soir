@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Cascadia", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+  }
+
+  body {
+    /* background-color: rgb(170, 172, 174); */
+    
+  }
+  
+  li, a {
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  nav {
+    /* background-color: aqua; */
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 65px;
+
+  }
+
+  .headnav {
+    background-color:#bdaf98 ;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+  }
+
+  .footnav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 25px;
+    align-items: center;
+  }
+
+  .content {
+    /* background-color: rgb(255, 196, 196); */
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+  }
+
+  .icons {
+/* background-color: blueviolet */
+display: flex;
+width: 20%;
+justify-content: space-around;
+  }
+
+  .defiaccepte img {
+width: 400px;
+height: 400px;
+  }
+
+  /* caroussel */
+
+
+
+  @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+    body { margin: 0; } 
+    div#slider { overflow: hidden; }
+    div#slider figure img { width: 20%; float: left; }
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 30s slidy infinite; 
+    }
+    
+
+    /* description concept */
+
+    .chefcouple {
+        /* background-color: aqua; */
+        display: flex;
+    }
+
+
+
+.text_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    /* background-color: blue; */
+    width: 70%;
+    /* height: 200px; */
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.bouton_content button {
+    font-size: 1.5rem;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(184, 114, 88);
+    border: none;
+    color: white;
+}
+
+/* défi */
+
+.defi_content {
+    /* background-color: #c18f3e; */
+    width: 100%;
+    height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.defiaccepte {
+    background-color: rgb(230, 146, 132);
+    width: 33%;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.defiaccepte h5{
+    /* background-color: #d06868; */
+    width: 350px;
+    text-align: center;
+}
+
+.defiaccepte img {
+    /* background-color: #493939; */
+    width: 300px;
+    height: 200px;
+}
+
+.defiaccepte p {
+    /* background-color: #4da93f; */
+    text-align: center;
+    font-size: 1.1rem;
+    width: 350px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.reservation {
+    /* background-color: #f6a1f6; */
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    font-size: 0.8rem;
+}
+
+#auvote {
+    background-color: #1e6269;
+}
+
+/* concept chef d'un soir */
+
+.conceptchefdunsoir {
+    background-color: #00c184;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    /* background-image: url(cuisine.jpg); */
+    background-size: cover;
+}
+
+.conceptchefdunsoir p, h5, h3 {
+    color: rgb(217, 209, 184);
+}
+
+/* réseaux */
+
+.reseaux {
+    background-color:#bdaf98 ;
+    width: 100%;
+    height: 300px;
+}
+
+.suiveznous {
+    width: 10%; 
+    margin-top: 10px;
+}
+
+.noshorraires {
+    width: 15%; 
+    margin-top: 10px;
+}
+
+.rs {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #717e2c; */
+}
+
+.jours {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #717e2c; */
+}
+
+.suiveznous p {
+    text-align: center;
+}
+
+.jours p, .noshorraires p {
+    text-align: center;
+}
+
+.reseaux_content {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #db5757; */
+}
+
+.conditions {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.detailsconditions {
+    /* background-color: #1e6269; */
+    width: 20%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.detailsconditions h3 {
+    color: black;
+}
