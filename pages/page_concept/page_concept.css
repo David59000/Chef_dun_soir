@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+body {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #ED8676;
+}
+#container_body {
+    background-color: #ED8676;
+    margin: 50px;
+}
+#titre_et_image {
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+}
+#contenu_descriptif_sous_image {
+    padding: 15px;
+    text-align: justify;
+
+}
+#reserver {
+    text-align: center;
+    font: bold;
+}
+#Défis_suivants {
+    text-align: right;
+}
+
