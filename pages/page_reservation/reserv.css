@@ -1,0 +1,84 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+form{
+    background-color: rgb(146, 104, 91);
+}
+#reservation_container{
+    max-width: 1000px;
+	margin: auto;
+	padding: 10px;
+    justify-content: space-around;
+    padding: 90px 0px;
+}
+
+#reserver{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre_page_reservation{
+    text-decoration: underline;
+}
+
+.call{
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.texte_reservation{
+    padding-top: 20px;
+}
+
+#a_remplir_pour_reserver{
+    max-width: 1000px;
+	margin: auto;
+}
+input{
+    height: 50px;
+    width: 400px;
+    padding: 10px;
+}
+.input_intervalle{
+    margin-left: 20px;
+}
+.nom_prenom_reservation{
+    padding: 20px 0px;
+}
+.contact_reserver{
+    padding: 20px 0px;
+}
+.date_horaires_reserver{
+    padding: 20px 0px;
+}
+.Nbre_personnes{
+    padding: 20px 0px;
+}
+#button_de_valider{
+    display: flex;
+    justify-content: center;
+}
+.button-reservation{
+    padding: 5px;
+	border-radius: 2px;
+	background-color: whitesmoke;
+	font-weight: bold;
+	border: none;
+}
+.button-reservation:hover{
+    cursor: pointer;
+    background-color: yellow;
+}
+
+#images_google_maps{
+ padding-top: 50px;
+}
+
+.taille_photo_maps{
+    width: 100%;  
+}

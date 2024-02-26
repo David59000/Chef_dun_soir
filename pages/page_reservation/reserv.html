@@ -1,14 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="reserv.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <form>
-        <div>
-            
+        <div id="reservation_container">
+            <div id="reserver">
+                <h1 class="titre_page_reservation">RESERVATION EN LIGNE</h1>
+                <span class="call">
+                    <img src="./phone-call-auricular-symbol-in-black_icon-icons.com_56483.png" alt=""><h2>03 XX XX XX XX</h2>
+                </span>
+            </div>
+            <div class="texte_reservation">
+                 <p>Pour réserver une table, merci de remplir ce formulaire.
+                    <br> <b>Nous vous confirmerons alors votre réservation par email ou téléphone.</b>
+                    <br>
+                    <br> <b>Au-delà de 8 personnes,</b> merci de nous contacter également par téléphone.
+                    <br> Merci de votre compréhension.</p>
+            </div>
+        </div>
+
+        <div id="a_remplir_pour_reserver">
+            <div class="nom_prenom_reservation">
+                <input required name="nom" type="text" placeholder="Votre Nom*">
+                <input required name="prenom" type="text" placeholder="Votre Prénom*" class="input_intervalle">
+            </div>
+            <div class="contact_reserver">
+                <input required name="numero de telephone" type="text" placeholder="Numero de téléphone">
+                <input required name="e-mail" type="text" placeholder="e-mail"  class="input_intervalle">
+            </div>
+            <div class="date_horaires_reserver">
+                <input required name="date" type="text" placeholder="JJ/MM/AAAA*">
+                <input required name="Heure" type="text" placeholder="Heure de réservation souhaité"  class="input_intervalle">
+            </div>
+            <div class="Nbre_personnes">
+                <input required name="nbre de personnes" type="text" placeholder="Nbre de personnes">
+            </div>
+            <div id="button_de_valider">
+                <button  class="button-reservation">
+                        Valider
+                </button>
+            </div>
+        </div>
+
+        <div id="images_google_maps">
+            <img src="./maps photo.png" alt="" class="taille_photo_maps">
         </div>
     </form>
 </body>
