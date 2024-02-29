@@ -1,0 +1,63 @@
+* { 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #F5EBDC;
+}
+#flèche_retour {
+    align-items: center;
+    width: 33,33%;
+}
+#icone_localisation {
+    align-items: center;
+    width: 33,33%;
+}
+#titre_page {
+    background-color: #ED8676;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    align-items: center;
+    width: 33,33%;
+}
+#conteneur_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5EBDC;
+    margin: 20px;
+}
+#conteneur_distances {
+    padding: 20px 20px;
+}
+#paragraphe_texte {
+    margin: 20px;
+    text-align: justify;
+}
+#ChoixVille {
+    margin: 20px;
+}
+#tableau_distances {
+    margin: 5px;
+    text-align: center;
+}
+#distance {
+    text-align: left;
+}
+#inscription {
+    background-color: #ED8676;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    text-align: justify;
+    padding: 3px;
+}
+#uniteDistance {
+    margin: 20px;
+}
