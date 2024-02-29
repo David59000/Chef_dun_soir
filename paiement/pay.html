@@ -7,7 +7,7 @@
     <title>Paiement</title>
 </head>
 <body>
-    <form>
+    <form id="paiement_container">
         <div id="page_de_paiement">
 
             <div id="paiement_en_ligne">
@@ -21,58 +21,68 @@
                 Payez par carte bancaire sans ouvrir de compte Paypal.
             </p>
             <div id="border_separator"></div>
-
-            <div id="selection_pays">
-                <label for="">Pays</label>
-                <select name="Pays" id="Choix_du_pays" class="pays_container">
-                    <option value="FR">France</option>
-                    <option value="EN">England</option>
-                    <option value="O">Autres</option>
-                </select>
-            </div>
-
-            <div id="les_cartes_paiement">
-                <div id="cb_card">
-                    <label for="">Paiement par carte:</label>
-                    <input type="radio">
-                    <label><img src="./assets-pay/logo-cb.jpg" alt=""class="card"></label>
+            <div>
+                <div  id="champs_de_paiement_intervalle">
+                    <div class="Choix_du_pays">
+                        <label class="text_label">Pays</label>
+                        <select name="Pays"class="pays_container">
+                            <option value="FR">France</option>
+                            <option value="EN">England</option>
+                            <option value="O">Autres</option>
+                        </select>
+                    </div>
                 </div>
-                <div id="visacard">
-                    <input type="radio">
-                    <label><img src="./assets-pay/CB Visa.svg" alt=""class="card_svg"></label>
+
+                <div id="les_cartes_paiement">
+                    <div id="champs_de_paiement_intervalle">
+                        <div id="cbs">
+                            <div>
+                                <label class="label-carte">Paiement par carte:</label>
+                            </div>
+                            <div class="masterard_visa_cb">
+                                <div class="carte_cb">
+                                    <input type="radio" name="CB" id="">
+                                    <label><img src="./assets-pay/CB.svg" alt=""class="carte"></label>
+                                </div>
+
+                                <input type="radio" name="CB" id="">
+                                <label><img src="./assets-pay/CB Visa.svg" alt=""class="carte_svg"></label>
+
+                                <input type="radio" name="CB" id="">
+                                <label><img src="./assets-pay/MasterCard.svg" alt="" class="carte_svg"></label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="mastercard">
-                    <input type="radio">
-                    <label><img src="./assets-pay/MasterCard.svg" alt="" class="card_svg"></label>
+
+                <div  id="champs_de_paiement_intervalle">
+                    <label class="label_nom_sur_la_carte">Nom sur la carte:</label>
+                    <input type="text"class="spatiale">
+                </div>
+
+                <div  id="champs_de_paiement_intervalle">
+                    <label class="label_num_carte">N° de carte:</label>
+                    <input type="text" class="spatiale">
+                </div>
+
+                <div  id="champs_de_paiement_intervalle">
+                    <label class="label_expiration">Date d'expiration:</label>
+                    <input type="text" placeholder="mm" class="espace">
+                    <input type="text" placeholder="aa" class="espace">
+                </div>
+
+                <div  id="champs_de_paiement_intervalle">
+                    <label class="label_cytograme">Cytograme:</label>
+                    <input type="text" placeholder="123" class="espace">
+                </div>
+
+                <div id="payer">
+                    <div class="clic">
+                        <img src="./assets-pay/cadenard.png" alt="">
+                        <span class="je_paie">Payer</span>
+                    </div>
                 </div>
             </div>
-
-            <div>
-                <label>Nom sur la carte:</label>
-                <input type="text">
-            </div>
-
-            <div>
-                <label>N° de carte:</label>
-                <input type="text">
-            </div>
-
-            <div>
-                <label>Date d'expiration:</label>
-                <input type="text" placeholder="mm">
-                <input type="text" placeholder="aa">
-            </div>
-
-            <div>
-                <label>Cytograme:</label>
-                <input type="text" placeholder="123">
-            </div>
-
-            <div id="payer">
-                <img src="./assets-pay/cadenard.png" alt="">
-                <span>Payer</span>
-            </div>
-
         </div>
     </form>
 </body>

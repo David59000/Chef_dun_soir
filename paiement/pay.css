@@ -9,10 +9,14 @@
 	box-sizing: border-box;
 	font-family: "Roboto", sans-serif;
 }
-
+#paiement_container{
+    background-color: #f5EBDC;
+    padding-bottom: 80px;
+}
 #page_de_paiement{
     max-width: 900px;
 	margin: auto;
+    
 }
 #paiement_en_ligne{
     padding: 90px;
@@ -42,19 +46,86 @@
 }
 #selection_pays{
     padding-bottom: 37px;
+    padding-left: 150px;
 }
-
+.Choix_du_pays{
+    margin-left: 100px;
+}
 #les_cartes_paiement{
-    display: flex;
-    
-}
-.card{
-    width: 30px;
-}
-.card_svg{
-    width: 35px;
+    display: flex;   
 }
 
+#cbs{
+    display: flex;
+    align-items: center;
+}
+.masterard_visa_cb{
+    display: flex;
+}
+.carte{
+    width: 38px;
+    margin: 5px;
+}
+.carte_cb{
+    display: flex;
+    align-items: center;
+}
+.carte_svg{
+    width: 55px;
+}
+.label-carte{
+    padding-right: 10px;
+    display: flex;
+
+}
 #visacard{
     flex-wrap: wrap;
+}
+#champs_de_paiement_intervalle{
+    margin-bottom: 20px;
+    padding-left: 100px;
+}
+.label_nom_sur_la_carte{
+    margin-left: 12px;
+}
+.label_num_carte{
+    margin-left: 49px;
+}
+.label_expiration{
+    margin-left: 10px;
+}
+.label_cytograme{
+    margin-left: 49px;
+}
+.espace{
+    width: 28px;
+    text-align: center;
+}
+.spatiale{
+    width: 261px;
+    height: 27px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#payer{
+    display: flex;
+    justify-content: center;
+    
+}
+.clic{
+    background-color: green;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    width: 79px;
+    height: 33px;
+}
+.je_paie{
+    padding-top: 10px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.clic:hover{
+    cursor: pointer;
+    background-color: rgb(45, 76, 45);
 }
