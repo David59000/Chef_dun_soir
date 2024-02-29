@@ -1,0 +1,60 @@
+@font-face {
+	font-family: Chunk;
+	src: url(./assets/fonts/Chunk.ttf);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+#page_de_paiement{
+    max-width: 900px;
+	margin: auto;
+}
+#paiement_en_ligne{
+    padding: 90px;
+    text-align: center;
+}
+.Titre_paiement{
+    font-family: Chunk;
+}
+
+#paypal{
+    display: flex;
+    color: blue;
+}
+.pas_de_paypal{
+    padding-left: 10px;
+    font-size: x-small;
+    font-style: italic;
+}
+#border_separator{
+    border: 1px solid;
+    margin: 20px 0px 90px;
+
+}
+
+.pays_container{
+    width: 500px;
+}
+#selection_pays{
+    padding-bottom: 37px;
+}
+
+#les_cartes_paiement{
+    display: flex;
+    
+}
+.card{
+    width: 30px;
+}
+.card_svg{
+    width: 35px;
+}
+
+#visacard{
+    flex-wrap: wrap;
+}

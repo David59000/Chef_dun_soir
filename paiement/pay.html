@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="pay.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paiement</title>
+</head>
+<body>
+    <form>
+        <div id="page_de_paiement">
+
+            <div id="paiement_en_ligne">
+                <h1 class="Titre_paiement">Paiement en Ligne</h1>
+            </div>
+            <div id="paypal">
+                <img src="./assets-pay/chevron bas.svg" alt="">
+                <h3>Vous n’avez pas de compte Paypal ?</h3>
+            </div>
+            <p class="pas_de_paypal">
+                Payez par carte bancaire sans ouvrir de compte Paypal.
+            </p>
+            <div id="border_separator"></div>
+
+            <div id="selection_pays">
+                <label for="">Pays</label>
+                <select name="Pays" id="Choix_du_pays" class="pays_container">
+                    <option value="FR">France</option>
+                    <option value="EN">England</option>
+                    <option value="O">Autres</option>
+                </select>
+            </div>
+
+            <div id="les_cartes_paiement">
+                <div id="cb_card">
+                    <label for="">Paiement par carte:</label>
+                    <input type="radio">
+                    <label><img src="./assets-pay/logo-cb.jpg" alt=""class="card"></label>
+                </div>
+                <div id="visacard">
+                    <input type="radio">
+                    <label><img src="./assets-pay/CB Visa.svg" alt=""class="card_svg"></label>
+                </div>
+                <div id="mastercard">
+                    <input type="radio">
+                    <label><img src="./assets-pay/MasterCard.svg" alt="" class="card_svg"></label>
+                </div>
+            </div>
+
+            <div>
+                <label>Nom sur la carte:</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label>N° de carte:</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label>Date d'expiration:</label>
+                <input type="text" placeholder="mm">
+                <input type="text" placeholder="aa">
+            </div>
+
+            <div>
+                <label>Cytograme:</label>
+                <input type="text" placeholder="123">
+            </div>
+
+            <div id="payer">
+                <img src="./assets-pay/cadenard.png" alt="">
+                <span>Payer</span>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>
