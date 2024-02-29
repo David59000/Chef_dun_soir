@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="footnav">
-        <li><a href="">Acceuil</a></li>
+        <li><a href="">Accueil</a></li>
         <li><a href="">Concept</a></li>
         <li><a href="">Contact</a></li>
       </div>
@@ -47,9 +47,10 @@
             src="../../assets/images/preparer-un-bon-cafe-avec-cafe-en-grain.jpg"
             alt
           />
-          
         </figure>
       </div>
+     
+    </div>
       <div class="description_concept">
         <div class="chefcouple">
           <div class="img_content">
@@ -58,12 +59,16 @@
           <div class="text_content">
             <div class="text">
               <h4>Bienvenue chez "Chef d'un soir" !</h4>
-              <br>
-              <br>
+              <br />
+              <br />
               <p>
-                Elise et Julien vous réservent une expérience gastronimique
-                unique avec un chef éphémère chaque jour...
+                <span
+                  >Vivez une expérience gastronomique unique pour un forfait de
+                  :
+                </span>
               </p>
+              <br />
+              <p><span id="couleur_prix">25 Euros</span></p>
             </div>
             <div class="bouton_content">
               <button>En savoir +</button>
@@ -73,13 +78,11 @@
         <br />
       </div>
       <div class="maDiv">
-        <!-- L'image à l'intérieur de la div -->
         <img
           src="../../assets/images/cuisiner-les-legumes-et-garnitures-de-saisons.jpg.webp"
           alt="Description du chef choisi"
         />
 
-        <!-- La div pour le texte centré -->
         <div class="texteSurImage">
           <h2>Benois saint jacque</h2>
           <br />
@@ -118,7 +121,7 @@
           </div>
         </div>
       </div>
-      <br>
+      <br />
       <div
         class="conceptchefdunsoir"
         style="
@@ -132,8 +135,8 @@
         <h3>Concept Chef d'un soir</h3>
         <p>
           S'offrir ou se faire offrir la possibilité de cuisiner un menu, en
-          respectant un budget de 25€/pers, avec un chef dans son propre restaurant 
-          pour 18 véritablesclients
+          respectant un budget de 25€/pers, avec un chef dans son propre
+          restaurant pour 18 véritablesclients
         </p>
         <h5>
           Prix carte cadeau 49,90€ pour la prestation et le repas pour vous et
@@ -141,55 +144,102 @@
         </h5>
       </div>
     </main>
-  </body>
-  <footer>
-    <div class="reseaux">
-      <div class="reseaux_content">
-        <div class="suiveznous">
-          <p>Suivez nous</p>
-          <div class="rs">
-            <i class="fa-brands fa-tiktok"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
+    <footer>
+      <div class="reseaux">
+        <div class="reseaux_content">
+          <div class="suiveznous">
+            <p>Suivez nous</p>
+            <div class="rs">
+              <i class="fa-brands fa-tiktok"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+          <div class="noshorraires">
+            <p>Nos horraires</p>
+            <div class="jours">
+              <p>Mardi au Samedi</p>
+              <p>12h 14h - 19h 22h</p>
+            </div>
           </div>
         </div>
-        <div class="noshorraires">
-          <p>Nos horraires</p>
-          <div class="jours">
-            <p>Mardi au Samedi</p>
-            <p>12h 14h - 19h 22h</p>
+        <br />
+        <div class="conditions">
+          <div class="detailsconditions">
+            <h3>Entreprise</h3>
+            <p>Qui sommes nous?</p>
+            <p>Recrutement</p>
+            <p>Franchise</p>
+            <p>Blog</p>
+          </div>
+          <div class="detailsconditions">
+            <h3>Mentions Légales</h3>
+            <p>Politique de confidentialité</p>
+            <p>Politique des cookies</p>
+            <p>Mention légales</p>
+            <p>CGU</p>
+          </div>
+          <div class="detailsconditions">
+            <h3>Nos services</h3>
+            <p>Restaurants, défis acceptés</p>
+            <p>Réserver une table sur un défi</p>
+          </div>
+          <div class="detailsconditions">
+            <h3>Aide</h3>
+            <br />
+            <br />
+            <br />
+            <p>Contact</p>
           </div>
         </div>
       </div>
-      <br />
-      <div class="conditions">
-        <div class="detailsconditions">
-          <h3>Entreprise</h3>
-          <p>Qui sommes nous?</p>
-          <p>Recrutement</p>
-          <p>Franchise</p>
-          <p>Blog</p>
+      <div class="login-container">
+        <h2>Connexion</h2>
+        <form class="login-form" action="#" method="post">
+            <div class="form-group">
+                <label for="username">Nom d'utilisateur :</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Se Connecter</button>
+            </div>
+        </form>
+        <div class="create-account">
+            <h2>Créer un compte</h2>
+            <form class="create-account-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="firstName">Prénom :</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Nom :</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Adresse :</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="form-group">
+                    <label for="code">Code :</label>
+                    <input type="text" id="code" name="code" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Créer un compte</button>
+                </div>
+            </form>
         </div>
-        <div class="detailsconditions">
-          <h3>Mentions Légales</h3>
-          <p>Politique de confidentialité</p>
-          <p>Politique des cookies</p>
-          <p>Mention légales</p>
-          <p>CGU</p>
+        <div class="forgot-password">
+            <p><a href="#">Mot de passe oublié ?</a></p>
         </div>
-        <div class="detailsconditions">
-          <h3>Nos services</h3>
-          <p>Restaurants, défis acceptés</p>
-          <p>Réserver une table sur un défi</p>
-        </div>
-        <div class="detailsconditions">
-          <h3>Aide</h3>
-          <br />
-          <br />
-          <br />
-          <p>Contact</p>
-        </div>
-      </div>
     </div>
-  </footer>
+    </footer>
+  </body>
 </html>
