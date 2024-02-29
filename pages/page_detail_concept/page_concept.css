@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+#container_defis_acceptes {
+    background-color: #ED8676;
+    margin: 50px;
+    color: white;
+}
+#titre_et_image {
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+}
+#contenu_descriptif_sous_image {
+    padding: 15px;
+    text-align: justify;
+    
+
+}
+#reserver {
+    text-align: center;
+    font: bold;
+}
+#Défis_suivants {
+    text-align: center
+   
+}
+#container_defis_au_vote {
+    background-color: #3E6474;
+    margin: 50px;
+    color: white;
+}
+#container_avec_deux_défis {
+    display: flex;
+}
+#image_saumon {
+    width: 100%;
+    
+}
+#image_container_saumon {
+text-align: center;
+}
+#image_carbonade {
+    width: 540px;
+ 
+}
+#titre_explication_de_Marie {
+    padding: 15px;
+}
+#paragraphe_explication_marie {
+    margin: 15px;
+}
+#historique_voeux_pierre {
+    padding: 15px;
+}
+
+@media screen and (max-width:480px) {
+#container_avec_deux_défis 
+} {
+    
+}
+

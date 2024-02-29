@@ -16,6 +16,9 @@ body {
     align-items: center;
     width: 33,33%;
 }
+.distance {
+    text-align: left;
+}
 #titre_page {
     background-color: #ED8676;
     color: white;

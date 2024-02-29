@@ -9,10 +9,10 @@
 <body>
    <div id="conteneur_header">
         <div id="flèche_retour">
-            <img src="./assets/images/arrow_back_FILL0_wght400_GRAD0_opsz24 - Copie.png" alt="">
+            <img src="../../icones/arrow_back_FILL0_wght400_GRAD0_opsz24 - Copie.png" alt="">
         </div>
         <div id="icone_localisation">
-            <img src="./assets/images/favorite_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            <img src="../../icones/favorite_FILL0_wght400_GRAD0_opsz24.png" alt="">
         </div>
         <div id="titre_page">
             <a>Localisez les défis en cours à partir de votre ville</a>
@@ -22,59 +22,70 @@
         <p>Nous vous invitons à renseigner la ville à partir de laquelle vous souhaitez utiliser notre moteur de recherche. Vous découvrirez ainsi les défis proposés par les détenteurs d'une carte cadeau Chef d'un soir. Si un minimum de 1 000 votes favorables sont comptabilisés, vous aiderez sans aucun doute le candidat soutenu à convaincre un Chef de relever le défi. Défi visant à préparer un dîner pour 20 personnes au prix de 25€/personne. Le dîner doit comprendre un apéritif, un plat principal avec son accompagnement de légumes, un verre de vin, un dessert et un café.</p>
     </div>
     <div id="ChoixVille">
-        <label for="ville">Merci de renseigner ici votre Ville (obligatoire)</label>
-        <input required="text">
+        <label for="ville">Merci de sélectionner ici votre Ville (obligatoire)</label>
+        <select onclick="distanceRestoDepuisVilleDeDepart(this.value)" id="villes">
+            <option value="Berlin">Berlin</option>
+            <option value="Lille">Lille</option>
+            <option value="Madrid">Madrid</option>
+            <option value="Marseille">Marseille</option>
+            <option value="Rennes">Rennes</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value="Toulouse">Toulouse</option>
+        </select>
+
+
     </div>
-    <div id="uniteDistance">
+    <!-- <div id="uniteDistance">
         <label for="uniteDistance">Le résultat sera converti selon votre choix</label>
         <select name="unite" id="">
             <option>km-kilomètres</option>
             <option>Mile=1.609km</option>
             <option>Li-0.5km</option>
         </select>
+    </div> -->
             <div id="conteneur_distances">
                 <table id="tableau_distances">
                     <thead>
                         <tr>
-                            <th id="distance">Distance</th>
-                            <th>Case à cocher</th>
+                            <th class="distance">Distance</th>
                             <th>Résultat</th>
+                            <th>Détails du résultat</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <td id="distance">Entre 1 et 20 km</td>
-                        <td><input type="checkbox" name="" id=""></td>
-                        <td><input =></td>  
+                        <td class="distance">Entre 1 et 20 km</td>
+                        <td><input type="number" value="0"></td> 
+                        <td><a href="../page_accueil/page_accueil.html"></a>cliquez ici pour détails</td> 
                     </tbody>
                     <tbody>
-                        <td id="distance">Entre 21 et 50 km</td>
-                        <td><input type="checkbox" name="" id=""></td>
-                        <td><input =></td>  
+                        <td class="distance">Entre 21 et 50 km</td>
+                        <td><input type="number" value="0"></td>  
+                        <td><a href=""></a>cliquez ici pour détails</td>
                     </tbody>
                     <tbody>
-                        <td id="distance">Entre 51 et 100 km</td>
-                        <td><input type="checkbox" name="" id=""></td>
-                        <td><input =></td>  
+                        <td class="distance">Entre 51 et 100 km</td>
+                        <td><input type="number" value="0"></td>
+                        <td><a href=""></a>cliquez ici pour détails</td>  
                     </tbody>
                     <tbody>
-                        <td id="distance">Entre 101 et 500 km</td>
-                        <td><input type="checkbox" name="" id=""></td>
-                        <td><input =></td>  
+                        <td class="distance">Entre 101 et 500 km</td>
+                        <td><input type="number" value="0"></td>  
+                        <td><a href=""></a>cliquez ici pour détails</td> 
                     </tbody>
                     <tbody>
-                        <td id="distance">Entre 501 et 1 000 km</td>
-                        <td><input type="checkbox" name="" id=""></td>
-                        <td><input =></td>  
+                        <td class="distance">Entre 501 et 1000 km</td>
+                        <td><input type="number" value="0"></td>  
+                        <td><a href=""></a>cliquez ici pour détails</td> 
                     </tbody>
                     <tbody>
-                        <td id="distance">Entre 1 001 et 2 000 km</td>
-                        <td><input type="checkbox" name="" id=""></td>
-                        <td><input =></td>  
+                        <td class="distance">Entre 1001 et 2000 km</td>
+                        <td><input type="number" value="0"></td>  
+                        <td><a href=""></a>cliquez ici pour détails</td> 
                     </tbody>
                     <tbody>
-                        <td id="distance">Entre 2 001 et 20 000 km</td>
-                        <td><input type="checkbox" name="" id=""></td>
-                        <td><input =></td>  
+                        <td class="distance">Entre 2001 et 20000 km</td>
+                        <td><input type="number" value="0"></td> 
+                        <td><a href=""></a>cliquez ici pour détails</td>  
                     </tbody>
                 </table>
                 <!-- <div><label for="1_20Km">Entre 1 et 20 km</label>
@@ -113,3 +124,6 @@
     <div>
     <a id="inscription">Inscription pour connaître les prochains défis acceptés</a>
 </div>
+<script src="./index.js"></script>
+</body>
+</html>
