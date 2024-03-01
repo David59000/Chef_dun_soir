@@ -3,8 +3,24 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-/* copie de header
-nav {
+body {
+    background-color: #f5ebdc;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Cascadia", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+  }
+  
+  li,
+  a {
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  nav {
     /* background-color: aqua; */
     display: flex;
     flex-direction: column;
@@ -12,12 +28,6 @@ nav {
     height: 65px;
   }
   
-  li,
-a {
-  list-style: none;
-  text-decoration: none;
-}
-
   .headnav {
     background-color: #f5ebdc;
     display: flex;
@@ -54,13 +64,12 @@ a {
     width: 20%;
     justify-content: space-around;
   }
+  
+  .defiaccepte img {
+    width: 400px;
+    height: 400px;
+  }
 
-
-
-
-a{
-    all: unset;
-}
 form{
     background-color: #ed8676;
 }
