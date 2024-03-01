@@ -3,6 +3,10 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+a{
+    all: unset;
+}
 form{
     background-color: #ed8676;
 }
@@ -62,6 +66,11 @@ input{
 #button_de_valider{
     display: flex;
     justify-content: center;
+
+}
+
+#button_de_valider:hover{
+    cursor: pointer;
 }
 .button-reservation{
     padding: 5px;
