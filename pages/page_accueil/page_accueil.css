@@ -170,6 +170,7 @@ div#slider figure {
   background-color: #ed8676;
   border: none;
   color: white;
+  cursor: pointer;
 }
 
 .maDiv {
