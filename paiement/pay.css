@@ -129,3 +129,35 @@
     cursor: pointer;
     background-color: rgb(45, 76, 45);
 }
+
+/*  */
+
+@media screen and (max-width:480px) {
+
+    #paiement_en_ligne {
+        padding: 90px;
+        text-align: center;
+        display: none;
+      }
+      #page_de_paiement {
+        max-width: 900px;
+        margin: auto;
+        padding-top: 54px;
+      }
+    #champs_de_paiement_intervalle {
+        margin-bottom: 20px;
+        padding-left: 20px;
+      }
+      .pays_container {
+        width: 255px;
+      }
+      .label-carte {
+        padding-left: 49px;
+        display: none;
+      }
+      #cbs {
+        display: flex;
+        padding-left: 159px;
+        margin-bottom: -26px;
+      }
+}
