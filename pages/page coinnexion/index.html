@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>page_connexion</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Connexion</h2>
+      <form class="login-form" action="#" method="post">
+        <div class="form-group">
+          <label for="username">Nom d'utilisateur :</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Mot de passe :</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="form-group">
+          <button type="submit">Se Connecter</button>
+        </div>
+      </form>
+      <div class="create-account">
+        <h2>Créer un compte</h2>
+        <form class="create-account-form" action="#" method="post">
+          <div class="form-group">
+            <label for="firstName">Prénom :</label>
+            <input type="text" id="firstName" name="firstName" required />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Nom :</label>
+            <input type="text" id="lastName" name="lastName" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="address">Adresse :</label>
+            <input type="text" id="address" name="address" required />
+          </div>
+          <div class="form-group">
+            <button type="submit">Créer un compte</button>
+          </div>
+        </form>
+      </div>
+      <div class="forgot-password">
+        <p><a href="#">Mot de passe oublié ?</a></p>
+      </div>
+    </div>
+  </body>
+</html>
