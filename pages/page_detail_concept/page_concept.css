@@ -14,8 +14,9 @@ body {
 }
 #container_defis_acceptes {
     background-color: #ED8676;
-    margin: 50px;
+    margin: 20px;
     color: white;
+    padding: 20px;
 }
 #titre_et_image {
     max-width: 1000px;
@@ -45,15 +46,24 @@ body {
     display: flex;
 }
 #image_saumon {
-    width: 100%;
+    width: 400px;
+    height: 400px;
     
 }
 #image_container_saumon {
 text-align: center;
 }
 #image_carbonade {
-    width: 540px;
- 
+    width: 200px;
+    margin: 5px;
+}
+#image_profiterolles {
+    width: 100px;
+    margin: 5px;
+}
+#container_inage_texte {
+    display: flex;
+    margin: 20px;
 }
 #titre_explication_de_Marie {
     padding: 15px;
@@ -64,10 +74,23 @@ text-align: center;
 #historique_voeux_pierre {
     padding: 15px;
 }
-
-@media screen and (max-width:480px) {
-#container_avec_deux_défis 
-} {
-    
+h2 {
+    text-align: center;
+}
+#afficherAllergenes {
+    text-align: center;
 }
 
+@media screen and (max-width:480px) {
+#container_image_seule {
+        display: none;
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:992px) {
+    #container_image_seule {
+        display: none;
+        margin: 10px;
+    }
+}
